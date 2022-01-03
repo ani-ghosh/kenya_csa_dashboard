@@ -1,0 +1,1 @@
+[{"theme":"topo","name":"Terrain Ruggedness Index","desc":"Mean of the absolute differences between the value of a cell and the value of its 8 surrounding cells.","type":"raster","src":"http://worldclim.org","link":"KEN_tri.tif"}] 

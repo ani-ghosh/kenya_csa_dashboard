@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download GFC Data</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/custom.css">
+      
+    <script src="../js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="fixed">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="../">Download GFC Data Home</a></h1>
+                </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon">
+                    <a href="#"><span>Menu</span></a>
+                </li>
+        </ul>
+            
+    <section class="top-bar-section">
+        <!-- Left Nav Section -->        
+        <ul class="left">
+            <li class="about">
+                <a href="../about.html">About</a>
+            </li>
+        </ul>
+        <!-- Right Nav Section -->
+        <ul class="right">
+          
+          <li class="has-dropdown">
+            <a href="#">Switch Country</a>
+            <ul class="dropdown" id="countries">
+                <!--<li><a href="bgd/" >Bangladesh</a></li>
+                <li><a href="bfa/" >Burkina Faso</a></li>
+                <li><a href="khm/" >Cambodia</a></li>
+                <li><a href="eth/" >Ethiopia</a></li>
+                <li><a href="sen/" >Senegal</a></li>
+                <li><a href="tza/" >Tanzania</a></li>-->
+            </ul>
+          </li>
+        </ul>
+    </section>    
+            
+        </nav>
+    </div>
+    
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+          <h3 id="name">Country Name Goes Here</h3>
+          <p>Data is provided in GeoTiff (.tif), Shapefiles (.shp), and Comma Separated Values (.csv) see <a href="../about.html">About</a> for full details</p>
+          
+        </div>        
+      </div>
+    </div>
+      
+      
+      
+   <div class="row">
+       <div class="small-12 columns">
+           
+           <h3>Data</h3>
+           <ul class="accordion" data-accordion>
+              <!--<li class="accordion-navigation">
+                <a href="#panel1a">Administrative</a>
+                <div id="panel1a" class="content">
+                    <table id="admin" role="grid">
+                    
+                    </table>
+                </div>
+              </li>-->
+              <li class="accordion-navigation">
+                <a href="#panel2a">Climate</a>
+                <div id="panel2a" class="content">
+                  <table id="climate" role="grid">
+                
+                  </table>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a href="#panel3a">Human</a>
+                <div id="panel3a" class="content">
+                  <table id="human" role="grid">
+                    
+                  </table>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a href="#panel4a">Soils</a>
+                <div id="panel4a" class="content">
+                  <table id="soils" role="grid">
+                    
+                  </table>
+                </div>
+              </li>
+              <li class="accordion-navigation">
+                <a href="#panel5a">Topography</a>
+                <div id="panel5a" class="content">
+                  <table id="topo" role="grid">
+                    
+                  </table>
+                </div>
+              </li>
+            </ul>
+           </div>
+    </div>   
+      
+    <div class="row">
+        <div class="large-12 columns" id="footer">
+        <div class="panel">
+            Brought to you by the
+            </ br> 
+            <h4><a href="http://gfc.ucdavis.edu">Geospatial and Farming Systems Research Consortium</a></h4>
+<h5>In Partnership With</h5>
+        </div>
+            <div class="large-1 medium-1 columns">
+           &nbsp;
+            </div>
+            <div class="large-10 medium-10 columns">
+            <ul id="partners" class="inline-list">
+                    <li>
+                        <a href="http://www.k-state.edu/siil/index.html">
+                            <img alt="Kansas State University Sustainable Intensification Innovation Lab" src="../img/t-siil-logo.png" /></a>
+                    </li>
+                    <li>
+                        <a href="http://www.usaid.gov/">
+                            <img alt="USAID logo" src="../img/t-usaid-logo.png" /></a>
+                    </li>
+                    <li>
+                        <a href="http://www.feedthefuture.gov/">
+                            <img alt="Feed the Future" src="../img/t-feed-the-future.png" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="large-1 medium-1 columns">
+           &nbsp;
+            </div>  
+        
+      </div>
+    </div>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script src="../js/gfc.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

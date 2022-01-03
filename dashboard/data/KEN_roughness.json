@@ -1,0 +1,1 @@
+[{"theme":"topo","name":"Roughness","desc":"Difference between the maximum and the minimum value of a cell and its 8 surrounding cells.","type":"raster","src":"http://worldclim.org","link":"KEN_roughness.tif"}] 
