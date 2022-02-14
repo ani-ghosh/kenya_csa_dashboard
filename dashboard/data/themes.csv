@@ -1,0 +1,21 @@
+theme,layers,description,file_path,color_theme,classes
+Climate,annual mean temperature,description,KEN_bio1,Reds,5
+Climate,annual total rainfall,description,KEN_bio12,Blues,5
+Climate,P95,description,KEN_bio13,Blues,5
+Climate risk,drought,description,KEN_bio15,YlOrBr,5
+Climate risk,flood,description,KEN_bio5,Blues,5
+Climate risk,heat stress,description,KEN_bio6,OrRd,5
+Climate risk,multiple,description,KEN_bio7,PiYG,5
+Satellite,NDVI,description,KEN_bio8,Greens,5
+Satellite,soil moisture,description,KEN_bio9,BrBG,5
+Satellite,evapotranspiration,description,KEN_bio10,RdYlGn,5
+Biodiversity,protected areas,description,protected_areas,Paired,5
+Biodiversity,lakes,description,kenya_lakes,Blues,5
+Market,travel time,description,KEN_access_50k,Spectral,5
+Market,distance to road,description,KEN_bio14,Greys,5
+Soils,soil clay particles,description,KEN_CLYPPT_sd1_M_02_apr_2014,YlOrRd,5
+Soils,CEC,description,KEN_CEC_sd1_M_02_apr_2014,YlOrRd,5
+Soils,bedrock,description,KEN_BDRICM_02_apr_2014,YlOrRd,5
+Soils,organic carbon content,description,KEN_ORCDRC_sd1_M_02_apr_2014,YlOrRd,5
+Soils,organic carbon stock,description,KEN_OCSTHA_sd1_M_02_apr_2014,YlOrRd,5
+Population,Population,description,KEN_bio3,Greys,5
